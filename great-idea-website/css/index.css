@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width:900px;
+	margin:0 auto;
+}
+.spacer{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.header {
+	font-family:Patua One;
+	font-weight: bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.copyRight{
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 100px;
+}
+.oneHalf {
+	width:440px;
+}
+.oneThird{
+	width:295px;
+}
+.pullLeft{
+	display:inline-block;
+}
+.mainContentText{
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+.container .mainNav {
+	position: relative;
+	margin-top:10px;
+}
+
+.container .mainNav nav{
+	display:inline-block;
+	margin-top:10px;
+}
+
+.container .mainNav .nav a {
+	padding:20px;
+	color:lightgray;
+}
+
+.container .mainNav .logo {
+	top:0;
+	right:0;
+	position: absolute;
+}
+
+.container .marketing {
+	margin-top:40px;
+}
+.container .marketing .marketingText {
+	width:450px;
+	display:inline-block;
+}
+.container .marketing .marketingText p {
+	text-align: center;
+}
+.container .marketing .marketingText .leftSideText {
+	font-family: Courgette;
+	font-size:75px;
+	margin-bottom:80px;
+}
+.container .marketing .marketingText .marketingButton {
+	width: 150px;
+	height:20px;
+	border:1px solid black;
+	margin: 0 auto;
+}
+.container .marketing .logo {
+	width:450px;
+}
+
+.mainContent .features {
+	display:inline-block;
+	width:450px;
+}
